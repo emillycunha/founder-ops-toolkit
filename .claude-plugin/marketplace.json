@@ -1,0 +1,23 @@
+{
+  "name": "founder-ops-toolkit",
+  "owner": {
+    "name": "Emilly Humphress",
+    "url": "https://whiteboston.com"
+  },
+  "metadata": {
+    "description": "Claude Code skills for service-based founders to diagnose bottlenecks, extract processes, and build systems that run without them",
+    "version": "1.0.0",
+    "repository": "https://github.com/emillycunha/founder-ops-toolkit"
+  },
+  "plugins": [
+    {
+      "name": "operations-skills",
+      "description": "Operations skills for the Extract → Assign → Scale framework: diagnose bottlenecks, document processes, and systematize your business",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/operations"
+      ]
+    }
+  ]
+}
